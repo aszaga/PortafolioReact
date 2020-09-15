@@ -1,13 +1,126 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Pathway Gothic One', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#menu{  
+  position:absolute; 
+  z-index:1;
+}
+
+h2 {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #1f036e;
+}
+
+h3 {
+  font-size: 30px;
+  display: inline;
+  margin: 30px;  
+}
+
+h5 {
+  margin-top: 25px;
+}
+
+p{
+  font-size: 20px;
+}
+
+#Imag {
+  height: 300px;
+  width: 100%;
+}
+
+.project-tile{
+  justify-content: center;
+}
+
+
+
+hr {
+  border: 2px solid #2506d4;
+  border-radius: 3px;
+}
+
+#proyectos {
+  background: #1a8aac;
+}
+
+.hoja:link, .hoja:visited {
+  background-color: #1f036e;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: rgb(12, 10, 97);
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 60px;
+  width: 60%;
+}
+
+.hoja:hover, .hoja:active {
+  background-color: #0d0c5a;
+}
+
+a {
+  text-decoration-line: none;
+  color: rgb(50, 39, 204);
+  font-size: 20px;
+}
+a:hover {
+  color: #335c91;
+}
+
+.project-tile img{
+  width: 100%;
+  padding: 30px;
+  height: 300px;
+}
+
+.project-tile a{
+  background: #1f036e;
+  color:#ffff;
+  padding: 5px;
+}
+
+.footer {
+  background: #1f036e;
+  color:#ffff;
+  padding: 5px;
+}
+
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 4) {
+    .nombre {
+      font-size:  4rem;
+    }
+    #imag  { 
+      
+      left: 20%;
+      top: 25%;
+      opacity: 0.5;
+      width: 100%;
+    }
+    
+    
+    
+
+    #proyecto{
+      padding-top: 15%;
+    }
+
+    h3 {
+      font-size: 15px;
+      margin: 5px; 
+    }
+
+    
+
 }
